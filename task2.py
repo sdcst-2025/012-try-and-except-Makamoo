@@ -19,3 +19,14 @@ The reciprocal of 3 is 0.3333333333333333
 Enter a number: 4
 The reciprocal of 4 is 0.25
 """
+
+try:
+    twig = input("enter a number ")
+    stick = float(twig)
+    if stick == 0:
+        print("The reciprocal of 0 does not exist")
+    else:
+        tree = 1/stick
+        print(f"The reciprocal of {stick} is {tree}")
+except:
+    print(f"stop being a loser, it works if you stop putting in stuff like '{twig}'")

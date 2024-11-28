@@ -21,3 +21,10 @@ The square root of 3.0 is 1.7320508075688772
 """
 import math
 
+try:
+    hi = input("Enter a number ")
+    HI = float(hi)
+    Hi = math.sqrt(HI)
+    print(f"The Square Root is {Hi}")
+except:
+    print(f"Something went wrong, maybe there is no square root of {hi}")
